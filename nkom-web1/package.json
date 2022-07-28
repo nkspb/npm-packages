@@ -1,19 +1,22 @@
 {
-  "name": "nkom-package1",
+  "name": "nkom-web1",
   "version": "1.0.0",
-  "description": "test",
+  "description": "Package for web-development",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://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@github.com/nkspb/npm-packages.git"
+    "url": "git+https://github.com/nkspb/npm-packages.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nkspb/npm-packages/issues"
   },
-  "homepage": "https://github.com/nkspb/npm-packages#readme"
+  "homepage": "https://github.com/nkspb/npm-packages#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
 }
